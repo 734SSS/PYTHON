@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hellofx.HelloController">
+   <children>
+      <Button layoutX="222.0" layoutY="189.0" mnemonicParsing="false" onAction="#girispanel" prefHeight="101.0" prefWidth="155.0" text="GİRİŞ" />
+      <Button layoutX="43.0" layoutY="189.0" mnemonicParsing="false" onAction="#yoneticipanel" prefHeight="101.0" prefWidth="155.0" text="YÖNETİCİ" />
+      <Button layoutX="401.0" layoutY="189.0" mnemonicParsing="false" onAction="#kayitpanel" prefHeight="101.0" prefWidth="155.0" text="KAYIT" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="225.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Downloads/Kayısı_Film-removebg-preview.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

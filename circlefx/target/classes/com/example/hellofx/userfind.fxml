@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hellofx.Useranasayfa">
+   <children>
+      <VBox layoutY="68.0" prefHeight="331.0" prefWidth="114.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="122.0" text="ANASAYFA" />
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="122.0" text="FİLM ARA" />
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="122.0" text="ÇIKIŞ" />
+         </children>
+      </VBox>
+      <StackPane layoutX="533.0" prefHeight="39.0" prefWidth="57.0">
+         <children>
+            <ImageView fitHeight="65.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../Downloads/🌊.jpeg" />
+               </image>
+            </ImageView>
+            <Button fx:id="profile" mnemonicParsing="false" opacity="0.34" prefHeight="82.0" prefWidth="100.0" text="." />
+         </children>
+      </StackPane>
+      <ScrollPane layoutX="114.0" layoutY="68.0" prefHeight="331.0" prefWidth="382.0">
+         <content>
+            <VBox prefHeight="351.0" prefWidth="383.0">
+               <children>
+                  <HBox prefHeight="160.0" prefWidth="383.0">
+                     <children>
+                        <StackPane prefHeight="159.0" prefWidth="123.0">
+                           <children>
+                              <Button mnemonicParsing="false" prefHeight="189.0" prefWidth="190.0" text="Button" />
+                              <VBox prefHeight="160.0" prefWidth="122.0" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="159.0" prefWidth="123.0">
+                           <children>
+                              <Button mnemonicParsing="false" prefHeight="189.0" prefWidth="190.0" text="Button" />
+                              <VBox prefHeight="160.0" prefWidth="122.0" />
+                           </children>
+                        </StackPane>
+                        <StackPane prefHeight="159.0" prefWidth="123.0">
+                           <children>
+                              <Button mnemonicParsing="false" prefHeight="189.0" prefWidth="190.0" text="Button" />
+                              <VBox prefHeight="160.0" prefWidth="122.0" />
+                           </children>
+                        </StackPane>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </content></ScrollPane>
+   </children>
+</AnchorPane>

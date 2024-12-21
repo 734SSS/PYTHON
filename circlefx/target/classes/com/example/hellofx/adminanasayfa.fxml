@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hellofx.deneme1">
+   <children>
+      <VBox layoutY="85.0" prefHeight="315.0" prefWidth="128.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#denemebuton" prefHeight="58.0" prefWidth="128.0" text="Filmler" />
+            <Button mnemonicParsing="false" prefHeight="58.0" prefWidth="130.0" text="Film Ekle" />
+            <Button mnemonicParsing="false" prefHeight="58.0" prefWidth="130.0" text="Film Çıkar" />
+            <Button mnemonicParsing="false" prefHeight="58.0" prefWidth="130.0" text="Çıkış" />
+         </children>
+      </VBox>
+      <ImageView fitHeight="84.0" fitWidth="87.0" layoutX="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Downloads/Kayısı_Film-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ScrollPane layoutX="128.0" layoutY="-1.0" prefHeight="400.0" prefWidth="352.0">
+         <content>
+            <VBox fx:id="vboxfilmler" prefHeight="608.0" prefWidth="336.0">
+               <children>
+                  <HBox fx:id="hboxfilmler" prefHeight="23.0" prefWidth="371.0">
+                     <children>
+                        <StackPane fx:id="stackpanefilm" prefHeight="190.0" prefWidth="122.0">
+                           <children>
+                              <VBox fx:id="vboxfilm" prefHeight="178.0" prefWidth="122.0">
+                                 <children>
+                                    <ImageView fx:id="afisfilm" fitHeight="92.0" fitWidth="122.0" pickOnBounds="true" preserveRatio="true" />
+                                    <Label text="Ad:" />
+                                    <Label fx:id="filmad" prefHeight="18.0" prefWidth="122.0" />
+                                    <Label text="Tür:" />
+                                    <Label fx:id="türad" prefHeight="18.0" prefWidth="129.0" />
+                                    <Label prefHeight="18.0" prefWidth="70.0" text="Kiralayan ID :" />
+                                    <Label fx:id="kiralayanad" prefHeight="18.0" prefWidth="129.0" />
+                                 </children>
+                              </VBox>
+                              <Button fx:id="buttonfilm" mnemonicParsing="false" opacity="0.0" prefHeight="224.0" prefWidth="122.0" />
+                           </children>
+                        </StackPane>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
